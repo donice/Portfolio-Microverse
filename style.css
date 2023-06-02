@@ -82,6 +82,12 @@ img {
   flex-direction: column;
 }
 
+#contact-me {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
 #About-myself button {
   display: flex;
   justify-content: center;
@@ -136,7 +142,7 @@ img {
 }
 
 .skill-card {
-  height: 300px;
+  height: 270px;
   color: white;
   margin: 13px 0;
   padding: 0 40px;
@@ -146,25 +152,68 @@ img {
   align-items: left;
 }
 
-/* .skill-card ul {
+.skill-card ul {
   margin: 0;
   padding: 15px;
-} */
+} 
 
-/* .skill-card ul li {
-  margin-bottom: 12px;
-} */
+.skill-card ul li {
+  margin-bottom: 10px;
+}
 
-/* .skill-card #language {
+#language {
   background-color: #1C528A;
 }
 
-.skill-card #frameworks {
+#frameworks {
   background-color: #e2505c;
 }
 
-.skill-card #skills {
+#skills {
   background-color: #FEBF52;
-} */
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+}
 
+.form {
+  margin: 1em 0;
+}
+
+label {
+  font-size: 12px;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+a {
+  color: #98DEDE;
+  text-decoration: none;
+}
+
+footer {
+  height: 150px;
+  background-color: #1A2236;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  width: 40px;
+}
+
+.socials {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}

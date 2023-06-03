@@ -1,5 +1,5 @@
 .material-symbols-outlined {
-  margin-right: .5em;
+  margin-right: 0.5em;
   width: 2em;
   font-variation-settings:
     'FILL' 0,
@@ -44,7 +44,7 @@ header {
 section {
   display: flex;
   flex-direction: column;
- margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 button {
@@ -62,8 +62,6 @@ button:hover {
 
 img {
   width: 414px;
-
-  /* margin: 0 auto; */
 }
 
 #about-me {
@@ -73,7 +71,7 @@ img {
 }
 
 #About-myself,
-#contact-me  {
+#contact-me {
   margin: 0 2em;
   display: flex;
   flex-direction: column;
@@ -145,7 +143,6 @@ img {
 .skill-card h4 {
   font-weight: bold;
 }
-
 
 .skill-card ul {
   margin: 0;

@@ -10,6 +10,7 @@
 
 * {
   margin: 0;
+
   /* font-family: 'Playfair Display', serif; */
   font-family: 'Poppins', sans-serif;
 }
@@ -34,7 +35,7 @@ h4 {
   font-size: 1.8em;
   line-height: 1em;
   font-weight: 200;
-  margin-bottom: .9em;
+  margin-bottom: 0.9em;
 }
 
 p {
@@ -50,6 +51,7 @@ header {
 section {
   display: flex;
   flex-direction: column;
+
   /* align-items: center; */
   margin-top: 2rem;
 }
@@ -69,6 +71,7 @@ button:hover {
 
 img {
   width: 414px;
+
   /* margin: 0 auto; */
 }
 
@@ -106,17 +109,17 @@ img {
 }
 
 .project-card-section {
-  background-color: #1A2236;
+  background-color: #1a2236;
   display: grid;
 }
 
 .project-card {
   margin: 0;
-  background-color: #1A2236;
+  background-color: #1a2236;
 }
 
 .project-details {
-  background-color: #1A2236;
+  background-color: #1a2236;
   color: white;
   padding: 1.5em 2em;
 }
@@ -125,15 +128,14 @@ img {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .project-skill li {
-  margin: 0px;
-  padding: 0;
+  margin: 0;
   list-style: none;
   padding: 7px 10px;
-  background-color: #98DEDE;
+  background-color: #98dede;
 }
 
 .project-button {
@@ -141,11 +143,6 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-}
-
-.project-button span {
-  margin-left: 20px;
-  width: 8px;
 }
 
 .skill-card {
@@ -169,7 +166,7 @@ img {
 }
 
 #language {
-  background-color: #1C528A;
+  background-color: #1c528a;
   background-image: url("./images/icons/#.svg");
 }
 
@@ -178,7 +175,7 @@ img {
 }
 
 #skills {
-  background-color: #FEBF52;
+  background-color: #febf52;
 }
 
 form {
@@ -202,7 +199,7 @@ textarea {
 }
 
 a {
-  color: #98DEDE;
+  color: #98dede;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -211,7 +208,7 @@ a {
 
 footer {
   height: 150px;
-  background-color: #1A2236;
+  background-color: #1a2236;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,6 +221,11 @@ footer img {
 
 footer span {
   margin-left: 10px;
+}
+
+.project-button span {
+  margin-left: 20px;
+  width: 8px;
 }
 
 .socials {

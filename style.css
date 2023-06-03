@@ -167,15 +167,26 @@ img {
 
 #language {
   background-color: #1c528a;
-  background-image: url("./images/icons/#.svg");
+  background-image: url("./images/ic_hastag.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 40%;
 }
 
 #frameworks {
   background-color: #e2505c;
+  background-image: url("./images/ic_framework.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 40%;
 }
 
 #skills {
   background-color: #febf52;
+  background-image: url("./images/ic_skills.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 40%;
 }
 
 form {

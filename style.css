@@ -120,17 +120,18 @@ img {
   color: white;
   padding: 1.5em 2em;
 }
-
-.project-details-skills {
+.project-skill ul {
+  padding: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  color: #1A2236;
 }
-
-.project-details-skills span {
+.project-skill li{
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+  padding: 7px 10px;
   background-color: #98DEDE;
-  color: black;
-  padding: 6px 10px;
 }
 
 .project-button {

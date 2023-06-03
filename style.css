@@ -120,13 +120,15 @@ img {
   color: white;
   padding: 1.5em 2em;
 }
+
 .project-skill ul {
   padding: 0;
   display: flex;
   justify-content: space-between;
   color: #1A2236;
 }
-.project-skill li{
+
+.project-skill li {
   margin: 0px;
   padding: 0;
   list-style: none;

@@ -1,11 +1,11 @@
 .material-symbols-outlined {
-  margin-right: 1.5em;
-  width: 10px !important;
+  margin-right: .5em;
+  width: 2em;
   font-variation-settings:
     'FILL' 0,
     'wght' 700,
     'GRAD' 0,
-    'opsz' 58;
+    'opsz' 78;
 }
 
 * {
@@ -15,19 +15,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-  font-size: 4.8em;
-  font-family: 'Playfair Display', serif;
-  line-height: 1em;
-  margin: 0 0 0.4em 0;
-  font-weight: 200;
-}
-
+h1,
 h2 {
   font-size: 4.8em;
   font-family: 'Playfair Display', serif;
   line-height: 1em;
-  margin: 0 0 0.4em 0.4em;
+  margin: 0 0 0.4em 0;
   font-weight: 200;
 }
 
@@ -51,9 +44,7 @@ header {
 section {
   display: flex;
   flex-direction: column;
-
-  /* align-items: center; */
-  margin-top: 2rem;
+ margin-top: 2rem;
 }
 
 button {
@@ -81,14 +72,9 @@ img {
   flex-direction: column;
 }
 
-#About-myself {
+#About-myself,
+#contact-me  {
   margin: 0 2em;
-  display: flex;
-  flex-direction: column;
-}
-
-#contact-me {
-  margin: 2em;
   display: flex;
   flex-direction: column;
 }
@@ -146,7 +132,7 @@ img {
 }
 
 .skill-card {
-  height: 270px;
+  height: 330px;
   color: white;
   margin: 13px 0;
   padding: 0 40px;
@@ -156,13 +142,19 @@ img {
   align-items: left;
 }
 
+.skill-card h4 {
+  font-weight: bold;
+}
+
+
 .skill-card ul {
   margin: 0;
   padding: 15px;
 }
 
 .skill-card ul li {
-  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 #language {
@@ -207,6 +199,16 @@ textarea {
   width: 90%;
   padding: 15px;
   margin: 10px 0;
+}
+
+#message {
+  width: 22rem;
+  height: 10rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
 }
 
 a {

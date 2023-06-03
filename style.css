@@ -107,6 +107,7 @@ img {
 
 .project-card-section {
   background-color: #1A2236;
+  display: grid;
 }
 
 .project-card {

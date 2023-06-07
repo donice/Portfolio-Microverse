@@ -232,14 +232,16 @@
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
       </p>
 
-      <form action="/">
+      <form action="/" method="POST">
         <div class="form">
-          <label for="name">Your name</label><br>
-          <input id="name" type="text" placeholder="Donice Ubaru">
-          <label for="email">Your email</label><br>
-          <input id="email" type="text" placeholder="doniceubaru1@gmail.com">
-          <label for="message">Your mesaage</label><br>
-          <textarea id="message" rows="4" cols="50" placeholder="Enter yout new message here"></textarea>
+          
+          <input id="name" type="text" placeholder="Full name" maxlength="30" required>
+          
+          <input class="inputs" type="email" id="email" name="email" placeholder="Email address" required>
+
+          
+          <textarea id="comments" name="comments" maxlength="500" placeholder="Write me something"></textarea>
+          
         </div>
 
         <button type="button">Start Collaboration</button>

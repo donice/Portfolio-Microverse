@@ -119,6 +119,7 @@ img {
   list-style: none;
   padding: 7px 10px;
   background-color: #98dede;
+  float: left;
 }
 
 .project-button {

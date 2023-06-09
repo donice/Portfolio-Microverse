@@ -92,7 +92,7 @@ img {
 }
 
 .sub-heads {
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
 .project-card-section {
@@ -185,7 +185,7 @@ img {
 form {
   display: flex;
   flex-direction: column;
-  color: #7D7C84;
+  color: #7d7c84;
 }
 
 #submit-button {
@@ -205,7 +205,7 @@ textarea {
   width: 90%;
   padding: 16px;
   margin: 10px 0;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 #message {

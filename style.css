@@ -60,8 +60,13 @@ button:hover {
   background-color: #1e0336;
 }
 
-img {
+#mobile-img {
   width: 414px;
+  display: block;
+}
+
+#desktop-img {
+  display: none;
 }
 
 #my-name {
@@ -257,4 +262,32 @@ footer span {
   display: flex;
   justify-content: space-between;
   width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  #my-name {
+    font-size: 5.8em;
+    font-weight: 500;
+  }
+  
+  #about {
+    margin: 0;
+    width: 100%;
+    display: flex;
+  }
+
+  #about-me {
+    margin: 0;
+    width: 50%;
+  }
+
+  #mobile-img {
+    width: 50%;
+    display: none;
+  }
+
+  #desktop-img {
+    width: 50%;
+    display: block;
+  }
 }

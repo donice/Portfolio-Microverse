@@ -35,12 +35,6 @@ p {
   font-size: 1.1em;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 section {
   display: flex;
   flex-direction: column;
@@ -60,9 +54,17 @@ button:hover {
   background-color: #1e0336;
 }
 
+img,
 #mobile-img {
   width: 414px;
   display: block;
+}
+
+#mobile-nav {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #desktop-img {
@@ -265,6 +267,10 @@ footer span {
 }
 
 @media screen and (min-width: 768px) {
+  #mobile-nav {
+    display: none;
+  }
+
   #my-name {
     font-size: 5.8em;
     font-weight: 500;

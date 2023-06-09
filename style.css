@@ -267,24 +267,38 @@ footer span {
 }
 
 @media screen and (min-width: 768px) {
+
   #mobile-nav {
     display: none;
   }
 
   #my-name {
-    font-size: 5.8em;
+    font-size: 6em;
+    font-weight: 500;
+  }
+
+p {
+    font-size: 0.9em;
     font-weight: 500;
   }
   
   #about {
-    margin: 0;
-    width: 100%;
+    margin: auto;
+    max-width: 1900px;
     display: flex;
+    flex-direction: row;
   }
 
   #about-me {
     margin: 0;
+    padding: 0 8em;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/image_dots.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 25%;
   }
 
   #mobile-img {
@@ -295,5 +309,10 @@ footer span {
   #desktop-img {
     width: 50%;
     display: block;
+  }
+
+  button {
+    margin-top: 3em;
+    width: 15rem;
   }
 }

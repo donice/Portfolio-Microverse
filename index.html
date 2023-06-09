@@ -32,7 +32,7 @@
 
   <section>
     <div id="about-me">
-      <h1>Donice Ubaru</h1>
+      <h1 id="my-name">Donice Ubaru</h1>
       <p>
         Hello! I am a software developer! I can help you build a product,
         feature or website. Take a look at my work.
@@ -47,7 +47,7 @@
   </section>
 
   <section id="Works">
-    <h2>Projects</h2>
+    <h2 class="sub-heads">Projects</h2>
 
     <div class="project-card-section">
       <div class="project-card">
@@ -61,7 +61,7 @@
               <li>Javascript</li>
             </ul>
           </div>
-          <button class="project-button">
+          <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
               arrow_right_alt
@@ -81,7 +81,7 @@
               <li>Javascript</li>
             </ul>
           </div>
-          <button class="project-button">
+          <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
               arrow_right_alt
@@ -101,7 +101,7 @@
               <li>Javascript</li>
             </ul>
           </div>
-          <button class="project-button">
+          <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
               arrow_right_alt
@@ -121,7 +121,7 @@
               <li>Javascript</li>
             </ul>
           </div>
-          <button class="project-button">
+          <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
               arrow_right_alt
@@ -141,7 +141,7 @@
               <li>Javascript</li>
             </ul>
           </div>
-          <button class="project-button">
+          <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
               arrow_right_alt
@@ -161,7 +161,7 @@
               <li>Javascript</li>
             </ul>
           </div>
-          <button class="project-button">
+          <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
               arrow_right_alt
@@ -174,7 +174,7 @@
 
   <section>
 
-    <h2>About</h2>
+    <h2 class="sub-heads">About</h2>
     <div id="About-myself">
       <p>
         I can help you build a product , feature or website Look through some of my work and experience! If you like
@@ -223,26 +223,25 @@
   </section>
 
 
-
   <section><img src="./images/SideImage.svg" id="nav-image" alt="" />
     <div id="contact-me">
 
-      <h1>Get Started</h1>
+      <h2>Get Started</h2>
       <p>
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
       </p>
 
-      <form action="/">
+      <form action="https://formspree.io/f/mqkovwwj" method="POST">
         <div class="form">
           <label for="name">Your name</label><br>
-          <input id="name" type="text" placeholder="Donice Ubaru">
+          <input id="name" type="text" name="name" placeholder="Donice Ubaru" maxlength="30" required>
           <label for="email">Your email</label><br>
-          <input id="email" type="text" placeholder="doniceubaru1@gmail.com">
+          <input id="email" type="email" name="email" placeholder="doniceubaru1@gmail.com" required>
           <label for="message">Your mesaage</label><br>
-          <textarea id="message" rows="4" cols="50" placeholder="Enter yout new message here"></textarea>
+          <textarea id="message" type="text" name="message" rows="4" cols="50" placeholder="Enter yout new message here" maxlength="500" required></textarea>
         </div>
 
-        <button type="button">Start Collaboration</button>
+        <button type="submit" id="submit-button">Start Collaboration</button>
       </form>
     </div>
   </section>

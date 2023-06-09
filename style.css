@@ -17,7 +17,7 @@
 
 h1,
 h2 {
-  font-size: 4.8em;
+  font-size: 3.5em;
   font-family: 'Playfair Display', serif;
   line-height: 1em;
   margin: 0 0 0.4em 0;
@@ -64,6 +64,10 @@ img {
   width: 414px;
 }
 
+#my-name {
+  font-size: 4.8em;
+}
+
 #about-me {
   margin: 2em;
   display: flex;
@@ -89,6 +93,10 @@ img {
 
 #Works {
   display: flex;
+}
+
+.sub-heads {
+  margin-left: 0.5em;
 }
 
 .project-card-section {
@@ -119,6 +127,7 @@ img {
   list-style: none;
   padding: 7px 10px;
   background-color: #98dede;
+  float: left;
 }
 
 .project-button {
@@ -180,6 +189,11 @@ img {
 form {
   display: flex;
   flex-direction: column;
+  color: #7d7c84;
+}
+
+#submit-button {
+  padding: 10px;
 }
 
 .form {
@@ -193,8 +207,9 @@ label {
 input,
 textarea {
   width: 90%;
-  padding: 15px;
+  padding: 16px;
   margin: 10px 0;
+  color: #1a2236;
 }
 
 #message {
@@ -225,7 +240,7 @@ footer {
 }
 
 footer img {
-  width: 40px;
+  width: 25px;
 }
 
 footer span {

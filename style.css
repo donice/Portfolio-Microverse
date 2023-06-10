@@ -102,6 +102,10 @@ img,
   display: flex;
 }
 
+#Works-desktop {
+  display: none;
+}
+
 .sub-heads {
   margin-left: 0.5em;
 }
@@ -120,6 +124,10 @@ img,
   background-color: #1a2236;
   color: white;
   padding: 1.5em 2em;
+}
+
+.skill {
+  display: block;
 }
 
 .project-skill ul {
@@ -266,8 +274,9 @@ footer span {
   width: 350px;
 }
 
-@media screen and (min-width: 768px) {
 
+
+@media screen and (min-width: 768px) {
   #mobile-nav {
     display: none;
   }
@@ -277,14 +286,14 @@ footer span {
     font-weight: 500;
   }
 
-p {
+  p {
     font-size: 0.9em;
     font-weight: 500;
   }
-  
+
   #about {
     margin: auto;
-    max-width: 1900px;
+    max-width: 1400px;
     display: flex;
     flex-direction: row;
   }
@@ -315,4 +324,127 @@ p {
     margin-top: 3em;
     width: 15rem;
   }
+
+  #Works {
+    display: none;
+  }
+
+  #Works-desktop {
+    margin: auto;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #project-1 {
+    display: flex;
+    height: auto;
+    /* border: red solid 2px; */
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    padding-left: 2em;
+    writing-mode: horizontal-tb;
+  }
+
+  h2 {
+    width: 300px;
+    /* height: 400px; */
+    font-size: 6rem;
+  }
+
+  #rotate-heading {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2em;
+    height: 650px;
+    writing-mode: horizontal-tb;
+    background-image: url("./images/image_dots.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 40%;
+
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+  }
+
+  h4 {
+    font-weight: 800;
+  }
+
+
+  #project-1-img {
+    margin-top: 200px;
+    width: 1000px;
+    display: block;
+  }
+
+  .project-card {
+    width: 465px;
+    height: 30em;
+    margin: 0 10em;
+    position: relative;
+    top: -63em;
+    left: 58.6em;
+  }
+
+  #patterns-bg img {
+    margin: auto;
+  }
+
+  #bg-pattern {
+    width: 1400px;
+  }
+
+  #project-img {
+    margin: 0;
+    width: 465px;
+  }
+
+  .project-button {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .project-skill {
+    margin-top: 2em;
+  }
+
+  #About-myself {
+    flex-direction: row-reverse;
+  }
+
+  .About-myself {
+    max-width: 1400px; 
+
+  }
+
+  .about-section {
+    width: 50%;
+    /* margin-left: 3rem; */
+    padding: 5rem 0;
+  }
+
+  .skill {
+    display: grid;
+    width: 50%;
+    margin-right: 3rem;
+  }
+
+  .sub-heads {
+    margin-left: 0;
+  }
+
+  footer {
+
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5rem;
+
+  }
+  
 }

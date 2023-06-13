@@ -186,20 +186,6 @@ img {
   background-size: 40%;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  color: #7d7c84;
-}
-
-#submit-button {
-  padding: 10px;
-}
-
-.form {
-  margin: 1em 0;
-}
-
 label {
   font-size: 12px;
 }

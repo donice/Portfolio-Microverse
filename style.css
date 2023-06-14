@@ -117,7 +117,8 @@ img {
 
 .project-skill ul {
   padding: 0;
-  display: flex;
+  display: float;
+  float:left;
   justify-content: space-between;
   color: #1a2236;
 }
@@ -192,12 +193,15 @@ form {
   color: #7d7c84;
 }
 
-#submit-button {
-  padding: 10px;
+form {
+  display: flex;
+  flex-direction: column;
+  color: #7d7c84;
+  margin: 1em 0;
 }
 
-.form {
-  margin: 1em 0;
+#submit-button {
+  padding: 10px;
 }
 
 label {
@@ -258,3 +262,4 @@ footer span {
   justify-content: space-between;
   width: 350px;
 }
+

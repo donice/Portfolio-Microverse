@@ -76,9 +76,11 @@ img {
 
 #About-myself,
 #contact-me {
-  margin: 0 2em;
+  margin: 0 2.1em;
   display: flex;
   flex-direction: column;
+  padding: auto;
+  margin: auto;
 }
 
 #About-myself button {

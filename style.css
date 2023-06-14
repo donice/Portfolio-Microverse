@@ -80,7 +80,6 @@ img {
   display: flex;
   flex-direction: column;
   padding: auto;
-  margin: auto;
 }
 
 #About-myself button {

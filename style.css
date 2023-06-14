@@ -88,6 +88,10 @@ img {
   margin-top: 30px;
 }
 
+#submit-button {
+  width: 100%;
+}
+
 #nav-image {
   width: 150px;
 }
@@ -193,7 +197,7 @@ label {
 
 input,
 textarea {
-  width: 90%;
+  width: 100%;
   padding: 16px;
   margin: 10px 0;
   color: #1a2236;

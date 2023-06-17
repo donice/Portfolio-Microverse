@@ -13,7 +13,6 @@
   margin: auto;
 }
 
-
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
@@ -21,7 +20,6 @@ h2 {
   font-size: 3.5em;
   font-weight: 200;
 }
-
 
 .h2 {
   margin-left: 2rem;
@@ -42,7 +40,7 @@ header {
 }
 
 button {
-  background-color: #1A2236;
+  background-color: #1a2236;
   color: white;
   padding: 1rem 1.7rem;
   width: 100%;
@@ -58,7 +56,6 @@ button {
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
-
 
 .mobile-image {
   display: block;
@@ -96,7 +93,6 @@ button {
   margin-bottom: 2rem;
 }
 
-
 /* Projects */
 
 #projects {
@@ -123,7 +119,7 @@ button {
 }
 
 .mobile-projects-card {
-  background-color: #1A2236;
+  background-color: #1a2236;
 }
 
 .mobile-projects-skill ul {
@@ -134,8 +130,8 @@ button {
 }
 
 .mobile-projects-skill li {
-  color: #1A2236;
-  background-color: #98DEDE;
+  color: #1a2236;
+  background-color: #98dede;
   padding: 0.7em 1em;
   margin-right: 0.8em;
   font-size: 0.75em;
@@ -174,17 +170,17 @@ button {
 }
 
 #languages {
-  background-color: #1C528A;
+  background-color: #1c528a;
   background-image: url("./images/ic_hastag.svg");
 }
 
 #frameworks {
-  background-color: #E2505C;
+  background-color: #e2505c;
   background-image: url("./images/ic_framework.svg");
 }
 
 #skills {
-  background-color: #FEBF52;
+  background-color: #febf52;
   background-image: url("./images/ic_skills.svg");
 }
 
@@ -198,7 +194,7 @@ button {
 /* Contact */
 
 #contact {
-  background-color: #F9F9FA;
+  background-color: #f9f9fA;
   color: black;
   background-image: url("./images/SideImage.svg");
   background-repeat: no-repeat;
@@ -231,7 +227,7 @@ form {
 }
 
 label {
-  color: #7D7C84;
+  color: #7d7c84;
   font-size: 12px;
   margin: 15px 0;
 }
@@ -246,7 +242,6 @@ textarea {
 }
 
 /* Footer */
-
 
 a {
   color: #98dede;
@@ -399,7 +394,7 @@ footer span {
     font-size: 1.1rem;
     padding: 0.6em;
     background-color: white;
-    color: #1A2236;
+    color: #1a2236;
     margin: 0;
     display: flex;
     margin-top: 7.5rem;

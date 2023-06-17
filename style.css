@@ -70,6 +70,10 @@ button {
   display: flex;
 }
 
+footer span {
+  margin-left: 10px;
+}
+
 #mobile-nav span {
   padding: 25px 0;
 }
@@ -194,7 +198,7 @@ button {
 /* Contact */
 
 #contact {
-  background-color: #f9f9fA;
+  background-color: #f9f9fa;
   color: black;
   background-image: url("./images/SideImage.svg");
   background-repeat: no-repeat;
@@ -266,17 +270,12 @@ footer img {
   width: 25px;
 }
 
-footer span {
-  margin-left: 10px;
-}
-
 .socials {
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
   width: 350px;
 }
-
 
 @media screen and (min-width: 768px) {
   * {
@@ -304,6 +303,11 @@ footer span {
     width: 50%;
   }
 
+  form button {
+    position: relative;
+    right: -25%;
+  }
+
   #home {
     display: flex;
   }
@@ -322,7 +326,6 @@ footer span {
 
   #desktop-nav {
     display: block;
-    /* border: red solid 2px; */
   }
 
   #desktop-nav ul {
@@ -331,8 +334,8 @@ footer span {
   }
 
   #desktop-nav li {
-    margin: 0px 10px;
-    padding: 5px 50px 5px 0px;
+    margin: 0 10px;
+    padding: 5px 50px 5px 0;
   }
 
   #active {
@@ -544,25 +547,18 @@ footer span {
     margin-top: 1.8rem;
   }
 
-  form button {
-    position: relative;
-    right: -25%;
-  }
-
-
   ::placeholder {
     color: black;
   }
 
   label {
-    color: #7D7C84;
+    color: #7d7c84;
     font-size: 12px;
     margin: 15px 0;
   }
 
   input {
     width: 92%;
-    margin-bottom: 1rem;
     padding: 20px 10px 10px 10px;
     margin-bottom: 0.7rem;
   }

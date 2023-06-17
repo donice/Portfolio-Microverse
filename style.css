@@ -247,14 +247,41 @@ textarea {
 
 /* Footer */
 
-footer {
+
+a {
+  color: #98dede;
+  text-decoration: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0 5rem;
-  background-color: #1A2236;
-  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
 }
+
+footer {
+  height: 110px;
+  background-color: #1a2236;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+footer img {
+  width: 25px;
+}
+
+footer span {
+  margin-left: 10px;
+}
+
+.socials {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
 
 @media screen and (min-width: 768px) {
   * {
@@ -482,7 +509,7 @@ footer {
   #contact {
     background-image: url("./images/SideImageDesktop.svg");
     background-size: 100%;
-    height: 60rem;
+    height: 59rem;
     display: flex;
   }
 
@@ -549,5 +576,9 @@ footer {
     width: 96%;
   }
 
-
+  footer {
+    height: 80px;
+    flex-direction: row;
+    padding: 1rem 0;
+  }
 }

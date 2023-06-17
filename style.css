@@ -320,6 +320,15 @@ footer img {
     display: block;
   }
 
+  .mobile-projects-skill li {
+    font-size: 1em;
+  }
+
+  .skillset ul {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
   #mobile-nav {
     display: none;
   }
@@ -367,10 +376,6 @@ footer img {
     height: 500px;
   }
 
-  #project-heading {
-    width: 30%;
-  }
-
   .desktop-projects-card-1 {
     display: flex;
     justify-items: right;
@@ -409,17 +414,8 @@ footer img {
     font-weight: 700;
   }
 
-  .mobile-projects-skill li {
-    font-size: 1em;
-  }
-
   .skillset h4 {
     font-size: 1.6rem;
-  }
-
-  .skillset ul {
-    padding: 1rem;
-    font-size: 1.2rem;
   }
 
   #project-heading {
@@ -530,7 +526,6 @@ footer img {
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    display: flex;
   }
 
   .contact-info div {

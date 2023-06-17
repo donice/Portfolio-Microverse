@@ -23,16 +23,25 @@
 
 <body>
   <header>
-    <img src="./images/SideImage.svg" id="nav-image" alt="" />
-    <nav>
-      <span class="material-symbols-outlined"> menu </span>
-    </nav>
+    <div>
+      <nav id="desktop-nav">
+        <ul>
+          <li id="active">Help</li>
+          <li>Portfolio</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
 
+      <nav id="mobile-nav">
+        <span class="material-symbols-outlined"> menu </span>
+      </nav>
+    </div>
   </header>
 
-  <section>
-    <div id="about-me">
-      <h1 id="my-name">Donice Ubaru</h1>
+  <section id="home">
+    <div class="about-info">
+      <h1>Donice <br> Ubaru</h1>
       <p>
         Hello! I am a software developer! I can help you build a product,
         feature or website. Take a look at my work.
@@ -43,24 +52,25 @@
       <button type="button">Start Collaboration</button>
     </div>
 
-    <img src="./images/geometry.svg" alt="geometry">
+    <div>
+      <img src="./images/geometry.svg" alt="geometry" class="mobile-image more-margin">
+      <img src="./images/Thur.png" alt="geometry" class="desktop-image">
+    </div>
+
   </section>
 
-  <section id="Works">
-    <h2 class="sub-heads">Projects</h2>
-
-    <div class="project-card-section">
-      <div class="project-card">
-        <img src="./images/project-image.svg" alt="project-image-1">
-        <div class="project-details">
+  <section id="projects">
+    <div id="mobile-projects">
+      <h2 class="more-margin h2">Projects</h2>
+      <div class="mobile-projects-card">
+        <img src="./images/project-image.svg" alt="project-image-1" class="mobile-image">
+        <div class="mobile-projects-skill">
           <h4>Project name goes here</h4>
-          <div class="project-skill">
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+          </ul>
           <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
@@ -70,17 +80,15 @@
         </div>
       </div>
 
-      <div>
-        <img src="./images/project-image-1.svg" alt="project-image-1">
-        <div class="project-details">
+      <div class="mobile-projects-card">
+        <img src="./images/project-image-1.svg" alt="project-image-1" class="mobile-image">
+        <div class="mobile-projects-skill">
           <h4>Project name goes here</h4>
-          <div class="project-skill">
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+          </ul>
           <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
@@ -90,17 +98,15 @@
         </div>
       </div>
 
-      <div>
-        <img src="./images/project-image-2.svg" alt="project-image-1">
-        <div class="project-details">
+      <div class="mobile-projects-card">
+        <img src="./images/project-image-2.svg" alt="project-image-1" class="mobile-image">
+        <div class="mobile-projects-skill">
           <h4>Project name goes here</h4>
-          <div class="project-skill">
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+          </ul>
           <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
@@ -110,17 +116,15 @@
         </div>
       </div>
 
-      <div>
-        <img src="./images/project-image-3.svg" alt="project-image-1">
-        <div class="project-details">
+      <div class="mobile-projects-card">
+        <img src="./images/project-image-3.svg" alt="project-image-1" class="mobile-image">
+        <div class="mobile-projects-skill">
           <h4>Project name goes here</h4>
-          <div class="project-skill">
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+          </ul>
           <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
@@ -130,17 +134,15 @@
         </div>
       </div>
 
-      <div>
-        <img src="./images/project-image-4.svg" alt="project-image-1">
-        <div class="project-details">
+      <div class="mobile-projects-card">
+        <img src="./images/project-image-4.svg" alt="project-image-1" class="mobile-image">
+        <div class="mobile-projects-skill">
           <h4>Project name goes here</h4>
-          <div class="project-skill">
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+          </ul>
           <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
@@ -150,17 +152,62 @@
         </div>
       </div>
 
-      <div>
-        <img src="./images/project-image-5.svg" alt="project-image-1">
-        <div class="project-details">
+      <div class="mobile-projects-card">
+        <img src="./images/project-image-5.svg" alt="project-image-1" class="mobile-image">
+        <div class="mobile-projects-skill">
           <h4>Project name goes here</h4>
-          <div class="project-skill">
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+          </ul>
+          <button type="button" class="project-button">
+            See this project
+            <span class="material-symbols-outlined">
+              arrow_right_alt
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="desktop-projects">
+      <div id="project-heading">
+        <h2>Projects</h2>
+      </div>
+      <div class="desktop-projects-card-1">
+        <div class="mobile-projects-card">
+          <div class="mobile-projects-skill">
+            <h4>Project name goes here</h4>
             <ul>
               <li>HTML/CSS</li>
               <li>Ruby on Rails</li>
               <li>Javascript</li>
             </ul>
+            <button type="button" class="project-button">
+              See this project
+              <span class="material-symbols-outlined">
+                arrow_right_alt
+              </span>
+            </button>
           </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects-2">
+    <div>
+      <div class="mobile-projects-card project-2">
+        <img src="./images/project-image-5.svg" alt="project-image-1" class="mobile-image">
+        <div class="mobile-projects-skill" id="project-2-card">
+          <h4>Project name goes...</h4>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Ruby on Rails</li>
+            <li>+1</li>
+          </ul>
           <button type="button" class="project-button">
             See this project
             <span class="material-symbols-outlined">
@@ -172,10 +219,9 @@
     </div>
   </section>
 
-  <section>
-
-    <h2 class="sub-heads">About</h2>
-    <div id="About-myself">
+  <section class="about-info" id="skill-section">
+    <div>
+      <h2 class="more-margin">About</h2>
       <p>
         I can help you build a product , feature or website Look through some of my work and experience! If you like
         what
@@ -185,40 +231,77 @@
         Get my CV
         <span class="material-symbols-outlined">download</span>
       </button>
+    </div>
 
-      <div class="skill">
-        <div class="skill-card" id="language">
-          <h4>Languages</h4>
-          <ul>
-            <li>Javascript(ES5/ES6)</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-        </div>
 
-        <div class="skill-card" id="frameworks">
-          <h4>Frameworks</h4>
-          <ul>
-            <li>React.js</li>
-            <li>Ruby on rails</li>
-            <li>RSpec</li>
-            <li>Capibara</li>
-          </ul>
-        </div>
+    <div class="skills">
+      <div class="skillset" id="languages">
+        <h4>Languages</h4>
+        <ul>
+          <li>Javascript(ES5/ES6)</li>
+          <li>Ruby</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
 
-        <div class="skill-card" id="skills">
-          <h4>Skills</h4>
-          <ul>
-            <li>Database Management</li>
-            <li>CLI</li>
-            <li>API Design</li>
-            <li>Version Control</li>
-            <li>Web Development</li>
-          </ul>
-        </div>
+      <div class="skillset" id="frameworks">
+        <h4>Frameworks</h4>
+        <ul>
+          <li>React.js</li>
+          <li>Ruby on rails</li>
+          <li>RSpec</li>
+          <li>Capibara</li>
+        </ul>
+      </div>
+
+      <div class="skillset" id="skills">
+        <h4>Skills</h4>
+        <ul>
+          <li>Database Management</li>
+          <li>CLI</li>
+          <li>API Design</li>
+          <li>Version Control</li>
+          <li>Web Development</li>
+        </ul>
+      </div>
+      <div class="skillset" id="hidden">
 
       </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <div id="contact-us">
+      <h2 class="more-margin">Get Started</h2>
+      <p>
+        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+      </p>
+      <form action="https://formspree.io/f/mqkovwwj" method="POST">
+        <div class="form">
+          <div class="contact-info">
+            <div >
+              <label for="name">Your name</label><br>
+              <input id="name" type="text" name="name" placeholder="Donice Ubaru" maxlength="30" required><br>
+            </div>
+
+            <div>
+              <label for="email">Your email</label><br>
+              <input id="email" type="email" name="email" placeholder="doniceubaru1@gma..." required><br>
+            </div>
+
+          </div>
+          <div>
+            <label for="message">Your mesaage</label><br>
+            <textarea id="message" type="text" name="message" rows="4" cols="40"
+              placeholder="Enter yout new message here..." maxlength="500" required></textarea>
+          </div>
+        </div>
+
+        <button type="submit">Start Collaboration</button>
+      </form>
     </div>
   </section>
 

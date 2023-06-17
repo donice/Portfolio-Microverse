@@ -321,6 +321,10 @@ footer img {
     width: 100%;
   }
 
+  .skillset li {
+    font-size: 0.8rem;
+  }
+
   .skillset ul {
     padding: 1rem;
     font-size: 1.2rem;
@@ -337,10 +341,6 @@ footer img {
   #desktop-nav ul {
     display: flex;
     list-style: none;
-  }
-
-  .skillset li  {
-    font-size: 1rem;
   }
 
   #desktop-nav li {
@@ -362,6 +362,7 @@ footer img {
   }
 
   /* Projects */
+  
   #projects {
     display: flex;
   }
@@ -513,10 +514,6 @@ footer img {
     margin-top: 0;
   }
 
-  .skillset li {
-    font-size: 0.8rem;
-  }
-
   #hidden {
     background-size: 70%;
     display: block;
@@ -537,7 +534,7 @@ footer img {
     padding: 0;
   }
 
-  #contact-us p{
+  #contact-us p {
     font-size: 0.6rem;
   }
 

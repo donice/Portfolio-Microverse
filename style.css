@@ -27,7 +27,6 @@ h2 {
 
 h4 {
   font-size: 1.4em;
-  margin-bottom: 1rem;
   font-weight: 700;
 }
 
@@ -88,13 +87,13 @@ footer span {
 }
 
 .about-info h1 {
-  font-size: 5rem;
-  margin-bottom: 2rem;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .about-info p {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
+  font-size: 0.6rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Projects */
@@ -138,7 +137,7 @@ footer span {
   background-color: #98dede;
   padding: 0.7em 1em;
   margin-right: 0.8em;
-  font-size: 0.75em;
+  font-size: 0.65em;
 }
 
 .mobile-projects-skill button {
@@ -214,7 +213,7 @@ footer span {
 }
 
 #contact-us h2 {
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding: 0;
 }
 
@@ -253,7 +252,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 footer {
@@ -274,20 +273,17 @@ footer img {
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
-  width: 350px;
+  width: 200px;
 }
 
 @media screen and (min-width: 768px) {
   * {
     width: auto;
-    min-width: 0;
-    max-width: 1440px;
-    margin: auto;
   }
 
   h1,
   h2 {
-    font-size: 6.5em;
+    font-size: 3.5em;
   }
 
   header {
@@ -300,7 +296,11 @@ footer img {
   }
 
   button {
+    background-color: #1a2236;
+    color: white;
+    padding: 0.8rem 0.4rem;
     width: 50%;
+    font-size: 0.6rem;
   }
 
   form button {
@@ -318,10 +318,7 @@ footer img {
 
   .desktop-image {
     display: block;
-  }
-
-  .mobile-projects-skill li {
-    font-size: 1em;
+    width: 100%;
   }
 
   .skillset ul {
@@ -343,17 +340,18 @@ footer img {
   }
 
   #desktop-nav li {
-    margin: 0 10px;
-    padding: 5px 50px 5px 0;
+    font-size: 0.7rem;
+    margin: 5px 40px 5px 0;
   }
 
   #active {
     border-bottom: black solid 2px;
+    
   }
 
   .about-info {
-    padding: 17% 6rem 0 0;
-    width: 40%;
+    padding: 7% 1rem 0 2.5rem;
+    width: 70%;
     background-image: url("./images/image_dots.png");
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -370,16 +368,16 @@ footer img {
   }
 
   #desktop-projects {
-    margin-top: 7rem;
+    margin-top: 2rem;
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 400px;
   }
 
   .desktop-projects-card-1 {
     display: flex;
     justify-items: right;
-    height: 510px;
+    height: 370px;
     width: 65%;
     margin: 0;
     background-image: url("./images/project-image.svg");
@@ -394,33 +392,42 @@ footer img {
   }
 
   .mobile-projects-skill {
-    width: 1000px;
+    width: auto;
   }
 
   .mobile-projects-skill button {
-    width: 25%;
-    font-size: 1.1rem;
+    width: 40%;
+    font-size: 0.8rem;
     padding: 0.6em;
     background-color: white;
     color: #1a2236;
     margin: 0;
     display: flex;
-    margin-top: 7.5rem;
+    margin-top: 4.5rem;
     border: white solid 2px;
   }
 
   h4 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 700;
   }
 
+  .p {
+    font-size: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+
   .skillset h4 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+  }
+
+  .skillset li  {
+    font-size: 1rem;
   }
 
   #project-heading {
     width: 40%;
-    height: 100%;
+    height: 53%;
     background-image: url("./images/image_dots.png");
     background-repeat: no-repeat;
     background-position: right top;
@@ -429,13 +436,14 @@ footer img {
 
   #project-heading h2 {
     transform: rotate(-90deg);
-    font-size: 5.6rem;
-    margin: -28rem -41rem;
+    font-size: 4rem;
+    margin: -33.8rem -37rem;
+
   }
 
   #projects-2 {
     margin-top: 1rem;
-    height: 70rem;
+    height: 40rem;
     display: block;
     background-image: url("./images/group.svg");
     background-repeat: no-repeat;
@@ -461,7 +469,7 @@ footer img {
   }
 
   #project-2-card h4 {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   #project-2-card button {
@@ -473,24 +481,42 @@ footer img {
     background-image: none;
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
-    padding: 8rem;
+    width: 650px;
+    margin-bottom: 2rem;
+    padding: 3rem;
+  }
+
+  #skill-section button {
+    width: 70%;
+    padding: 0.6rem 0.7rem;
+    display: inline-flex;
+    font-size: 0.8rem;
   }
 
   #skill-section h2 {
-    font-size: 5rem;
+    font-size: 4rem;
+  }
+
+  .more-margin-h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
   }
 
   .skills {
-    width: 100%;
     display: grid;
     grid-template-columns: auto auto;
-    margin-right: 7rem;
+    margin-right: 2rem;
   }
 
   .skillset {
-    width: 300px;
+    width: 140px;
+    padding: 2rem;
+    height: 150px;
     margin-top: 0;
+  }
+
+  .skillset li {
+    font-size: 0.8rem;
   }
 
   #hidden {
@@ -503,16 +529,18 @@ footer img {
   #contact {
     background-image: url("./images/SideImageDesktop.svg");
     background-size: 100%;
-    height: 59rem;
+    height: 31rem;
     display: flex;
   }
 
   #contact-us {
-    width: 40%;
+    width: 45%;
     margin: auto;
-    display: flex;
-    flex-direction: column;
     padding: 0;
+  }
+
+  #contact-us p{
+    font-size: 0.6rem;
   }
 
   #contact-us button {
@@ -541,27 +569,32 @@ footer img {
 
   ::placeholder {
     color: black;
+    font-size: 0.7rem;
   }
 
   label {
     color: #7d7c84;
-    font-size: 12px;
+    font-size: 10px;
     margin: 15px 0;
   }
 
   input {
-    width: 92%;
-    padding: 20px 10px 10px 10px;
-    margin-bottom: 0.7rem;
+    width: 91%;
+    padding: 15px 5px 7px 7px;
+    margin-bottom: 0.5rem;
   }
 
   textarea {
-    width: 96%;
+    width: 93%;
   }
 
   footer {
-    height: 80px;
+    height: 60px;
     flex-direction: row;
     padding: 1rem 0;
+  }
+
+  footer img {
+    width: 15px;
   }
 }
